@@ -1,0 +1,250 @@
+html {
+    background-color: #fefefe;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.nav {
+    background-color: lightgrey;
+    width: 100%;
+    height: 80px;
+    transform: translateY(-20%);
+    box-shadow: 1px 0px 10px rgb(56, 55, 55);
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav ul img {
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.right img {
+    width: 15px;
+    height: 15px;
+    background-color: lightskyblue;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 15px;
+    transform: translateX(2000%);
+}
+
+#diff img {
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    padding: 10px;
+    transform: translateX(1550%);
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#profile img {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    padding: 10px;
+    transform: translateX(1410%);
+    border-radius: 50%;
+    margin-top: 7px;
+}
+
+.logo img {
+    width: auto;
+    height: 35px;
+    align-content: center;
+    transform: translateY(10%);
+}
+
+.task {
+    display: flex;
+    margin-top: -10px;
+}
+
+.task h2 {
+    margin-left: 10%;
+    font-family: "Noto Sans", sans-serif;
+    color: blue;
+    font-weight: 700;
+}
+
+.task button {
+    background-color: blue;
+    color: #fefefe;
+    float: right;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translateY(75%);
+    margin-left: 43%;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+
+.explore {
+    background-color: rgb(216, 224, 224);
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    width: 1000px;
+    height: auto;
+    margin-left: 10%;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.explore p {
+    margin-left: 15px;
+}
+
+.explore h4 {
+    margin-left: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 10%;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 350px;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.card-title {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-title img {
+    display: flex;
+    max-width: 25px;
+    border-radius: 100%;
+    float: right;
+    margin-left: 10px;
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card p {
+    padding: 20px;
+    margin-top: -10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.sidebar {
+    position: absolute;
+    top: 12%;
+    left: -270px;
+    width: 300px;
+    height: 100%;
+    transition: left 0.3s;
+    z-index: 2;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.sidebar ul {
+    text-align: left;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.sidebar .card-title {
+    text-align: left;
+    font-size: 22px;
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.sidebar .arrow-btn {
+    position: absolute;
+    margin-top: 3%;
+    top: 20px;
+    right: -30px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.sidebar .card {
+    margin: 20px;
+}
+
+.notice {
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-left: 480%;
+    transform: translateY(-170%);
+    border-radius: 10px;
+    position: absolute;
+}
+
+.notice p {
+    transform: translateY(0px);
+    width: 20px;
+    padding-left: 10px;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+.para {
+    height: 340px;
+    background-color: black;
+    border-radius: 10px;
+    padding-bottom: 37px;
+    padding-top: 20px;
+}
+
+.last img {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 90%;
+    transform: translateY(-400%);
+    margin-bottom: 10px;
+}
+
+.last ul {
+    list-style-type: none;
+}
